@@ -1,12 +1,19 @@
-h1 {border-block-start-color: 100px;
+body {background-image:url(USA-image.jpg);
+      image-orientation: 0grad;
+      background-repeat: no-repeat;
+      background-position: 50% 150px;
+      background-position-x: 10px;
+      background-position-y: 250px;}
+
+h1 {border-block-start-color: 200px;
     text-align: center;
-    padding-top:30px;
-    padding-bottom:30px;
+    font-size: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
     background-color: pink;
-    width: 650px;
+    width: 1300px;
     height: 100px;
-    padding-block-start: 100px;
-    float: calc(150%/2);
+    float: calc(200%/2);
     text-emphasis-color: black;
     margin-block-start: 10px;
     column-span: "2";
@@ -16,21 +23,24 @@ h1 {border-block-start-color: 100px;
 
 
 #part {border-block-start-width: 5px;
-       padding:20px;
-       background-color: blueviolet;
+       padding:30px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 150%;
+       background-color: rgb(188, 148, 226);
        float: left;
        float: calc(150%/2);
-       line-height: 170%;
+       line-height: 150%;
        margin-top: 5px;
 
 
        }
 .green {border-block-end-width: 5px;
-        padding: 20px;
-        background-color: pink;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 150%;
+        padding: 30px;
         float: left;
         float: calc(150%/2);
-        line-height: 170%;
+        line-height: 150%;
         margin-top: 5px;
        }
         
